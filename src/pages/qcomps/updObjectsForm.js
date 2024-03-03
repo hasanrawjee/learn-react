@@ -8,7 +8,7 @@ export default function Scoreboard() {
   });
 
   function handlePlusClick() {
-    setPlayer({ ...player, likescore: player.likescore + 1 })
+    setPlayer({ ...player, likescore: player.likescore + 1 });
     //player.likescore++;
   }
 
